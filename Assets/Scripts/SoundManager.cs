@@ -77,4 +77,8 @@ public class SoundManager : MonoBehaviour
 
         _audioSource.PlayOneShot(gameOver);
     }
+    public void Win()
+    {
+        _audioSource.Pause();
+    }
 }
